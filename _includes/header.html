@@ -1,33 +1,20 @@
 <style>
-  /* 1. GLOBAL THEME RESET - Locks vertical and horizontal alignment */
-  body {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  header {
-    width: 100% !important;
+  /* FIXED HEADER ANCHOR: This forces the top alignment to be pixel-perfect */
+  header, section {
+    display: block !important;
     float: none !important;
-    position: relative !important;
-    margin: 0 !important; /* Zero out top margin */
-    padding: 40px 0 20px 0 !important; /* Fixed padding from top */
-  }
-  
-  section {
     width: 100% !important;
-    float: none !important;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0 !important; /* Removes theme-specific vertical padding */
   }
 
   .wrapper {
     max-width: 1000px !important;
     margin: 0 auto !important;
-    /* This padding controls the distance from the top and sides of the window */
-    padding: 40px 40px 10px 40px !important; 
+    padding: 60px 40px 20px 40px !important; /* This is the ONLY place that sets the top height (60px) */
   }
 
-  /* 2. DYNAMICAL HOVER EFFECT */
+  /* DYNAMICAL HOVER EFFECT */
   .header-link {
     text-decoration: none !important;
     transition: font-weight 0.2s ease-in-out;
@@ -46,9 +33,7 @@
     visibility: hidden;
   }
 
-  .header-link:hover {
-    font-weight: 400 !important;
-  }
+  .header-link:hover { font-weight: 400 !important; }
 
   .site-title {
     font-size: 38px;
@@ -80,7 +65,7 @@
 
     {% if page.url == "/" or page.url == "/index.html" %}
     <div style="margin-top: 30px;"> 
-        <p style="margin: 0; color: #111; font-size: 18px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: bold;">
+        <p style="margin: 0; color: #111; font-size: 18px; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold;">
             Associate Professor, Westlake University
         </p>
         <div style="margin-top: 5px;">
