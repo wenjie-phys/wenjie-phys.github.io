@@ -5,20 +5,31 @@ layout: default
 {% include header.html %}
 
 <style>
-  /* Container forces everything to the LEFT */
+  /* THEME OVERRIDE: This pushes the theme's centered box to the far left */
+  .wrapper, .container, .main-content, #main_content, .inner, .page-content {
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 20px !important; /* Adjust this to match your desired side margin */
+    width: 100% !important;
+    display: block !important;
+  }
+
+  /* Your Profile Content Styles */
   .profile-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start !important; 
     margin-top: 40px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     width: 100%;
+    text-align: left;
   }
 
   .profile-photo {
-    width: 200px; /* Adjust width as needed */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 0; /* Ensures rectangle shape */
+    width: 200px; 
+    height: auto; 
+    border-radius: 0; 
     margin-bottom: 20px;
     display: block;
   }
@@ -40,7 +51,7 @@ layout: default
     font-size: 16px;
     color: #3b71ca;
     text-decoration: none;
-    margin-bottom: 40px; /* Space before the next person */
+    margin-bottom: 40px; 
   }
 
   .group-header {
@@ -58,5 +69,4 @@ layout: default
   <p class="profile-name">Wenjie Ji</p>
   <p class="profile-title">Principal Investigator</p>
   <a href="mailto:wenjieji@westlake.edu.cn" class="profile-email">wenjieji@westlake.edu.cn</a>
-
-  </div>
+</div>
