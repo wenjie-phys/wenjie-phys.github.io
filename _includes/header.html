@@ -1,11 +1,16 @@
 <style>
-  /* 1. GLOBAL THEME RESET - Keeps headline in the same spot on ALL pages */
+  /* 1. GLOBAL THEME RESET - Locks vertical and horizontal alignment */
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
   header {
     width: 100% !important;
     float: none !important;
     position: relative !important;
-    margin: 0 0 20px 0 !important;
-    padding-left: 0 !important;
+    margin: 0 !important; /* Zero out top margin */
+    padding: 40px 0 20px 0 !important; /* Fixed padding from top */
   }
   
   section {
@@ -16,9 +21,10 @@
   }
 
   .wrapper {
-    max-width: 1000px !important; /* Adjust this to control how wide your site is */
-    margin: 0 auto !important;    /* Centers the entire 'box' */
-    padding: 40px !important;     /* Consistent margin from the edge */
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+    /* This padding controls the distance from the top and sides of the window */
+    padding: 40px 40px 10px 40px !important; 
   }
 
   /* 2. DYNAMICAL HOVER EFFECT */
@@ -65,6 +71,7 @@
 
         <nav style="display: flex; gap: 30px; line-height: 1; padding-top: 10px;">
             <a href="/cv" class="header-link" title="CV">CV</a>
+            <a href="/publications" class="header-link" title="Publications">Publications</a>
             <a href="/research" class="header-link" title="Research">Research</a>
             <a href="/group" class="header-link" title="Group">Group</a>
             <a href="/join" class="header-link" title="Join">Join</a>
