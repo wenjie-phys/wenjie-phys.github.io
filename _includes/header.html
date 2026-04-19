@@ -1,51 +1,59 @@
 <style>
-  /* 1. Base Styles for ALL Header Links */
+  /* 1. Base Styles */
   .header-link {
-    transition: font-weight 0.2s ease-in-out; /* Smoothly "dynamical" font change */
     text-decoration: none !important;
-    font-weight: 700 !important; /* DEFAULT: Make everything BOLD */
+    color: #333 !important;
+    transition: font-weight 0.2s ease-in-out;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'EB Garamond', Garamond, serif;
   }
 
-  /* 2. Styles for Navigation Tabs ONLY (The picture font) */
+  /* 2. The Navigation Font (Bold by default) */
   nav a {
-    /* Use the standard academic serif stack that matches the example pic */
-    font-family: 'EB Garamond', Garamond, 'Times New Roman', Times, serif; 
-    font-size: 19px; /* Adjust size to taste */
-    color: #333 !important; /* Keep the dark gray/black color */
+    font-weight: 700 !important;
+    font-size: 19px;
   }
 
-  /* 3. The dynamical effect: Reverse-Bold */
+  /* 3. The "Ghost" Trick: Prevents width shifting */
+  nav a::after {
+    display: block;
+    content: attr(title); /* Pulls text from the 'title' attribute below */
+    font-weight: 700;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  /* 4. The Dynamical Effect (Bold to Normal) */
   .header-link:hover {
-    font-weight: 400 !important; /* HOVER: Font changes to NORMAL weight */
-    color: #333 !important;      /* Explicitly don't change color, just weight */
+    font-weight: 400 !important;
   }
 
-  /* 4. Keep Name specific font but also use Reverse-Bold */
+  /* 5. Name specific styling */
   .site-title {
-    font-family: 'EB Garamond', serif; /* Picture font for Name */
     font-size: 38px;
-    font-weight: 800; /* Name is bolder than tabs by default */
-    line-height: 1;
+    font-weight: 800 !important;
+    color: #111 !important;
   }
 </style>
 
 <div style="display: flex; flex-direction: column; width: 100%; margin-bottom: 40px;">
-    
     <div style="display: flex; justify-content: space-between; align-items: flex-start;">
         
         <h1 style="margin: 0; line-height: 1;">
-            <a href="/" class="header-link site-title" style="color: #111;">Wenjie Ji</a>
+            <a href="/" class="header-link site-title">Wenjie Ji</a>
         </h1>
 
         <nav style="display: flex; gap: 30px; line-height: 1; padding-top: 10px;">
-            <a href="/cv" class="header-link">CV</a>
-            <a href="/publications" class="header-link">Publications</a>
-            <a href="/research" class="header-link">Research</a>
-            <a href="/talks" class="header-link">Talks</a>
-            <a href="/join" class="header-link">Join</a>
+            <a href="/cv" class="header-link" title="CV">CV</a>
+            <a href="/publications" class="header-link" title="Publications">Publications</a>
+            <a href="/research" class="header-link" title="Research">Research</a>
+            <a href="/talks" class="header-link" title="Talks">Talks</a>
+            <a href="/join" class="header-link" title="Join">Join</a>
         </nav>
     </div>
-  
 
     <div style="margin-top: 50px;"> 
         <p style="margin: 0; color: #111; font-weight: 600; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Associate Professor, Westlake University</p>
@@ -53,8 +61,10 @@
             <a href="https://scholar.google.com/citations?user=bVjt0QwAAAAJ&hl=en" style="color: #3b71ca; text-decoration: none; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px;">Google Scholar</a>
         </div>
     </div>
-    
 </div>
+  
+
+
 
 
 
