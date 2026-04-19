@@ -88,15 +88,15 @@ layout: default
     <div class="member-details">
       <p class="name-line">
         <span class="bold-name">Wenjie Ji</span> 
-        <span class="normal-status">(Principal Investigator)</span>
+        <span class="normal-status">Principal Investigator</span>
       </p>
       
       <a href="mailto:wenjieji@westlake.edu.cn" class="email-line">wenjieji@westlake.edu.cn</a>
       
       <p class="bio-line">
         Wenjie Ji is an Associate Professor at Westlake University. Her research interests 
-        include theoretical condensed matter physics, quantum field theories, and 
-        quantum information science.
+        include theoretical condensed matter physics, and 
+        quantum information science. 
       </p>
     </div>
   </div>
