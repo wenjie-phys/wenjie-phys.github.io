@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-
 {% include header.html %}
-
 <style>
+  .group-header {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 40px 0 20px 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
   .member-row {
     display: flex;
     align-items: flex-start;
     gap: 25px;
-    margin-top: 40px;
     margin-bottom: 50px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
@@ -47,13 +51,6 @@ layout: default
     line-height: 1.6;
     margin: 0;
   }
-
-  .group-header {
-    font-size: 26px;
-    font-weight: 700;
-    margin: 40px 0 20px 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
 </style>
 
 <h2 class="group-header">Group Members</h2>
@@ -67,8 +64,8 @@ layout: default
     </p>
     <a href="mailto:wenjieji@westlake.edu.cn" class="email-line">wenjieji@westlake.edu.cn</a>
     <p class="bio-line">
-      Wenjie Ji is an Associate Professor in the Department of Physics at Westlake University. Her research interests 
-      include theoretical condensed matter physics, and 
+      Wenjie Ji is an Associate Professor at Westlake University. Her research interests 
+      include theoretical condensed matter physics, quantum field theories, and 
       quantum information science.
     </p>
   </div>
