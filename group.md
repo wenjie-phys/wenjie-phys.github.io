@@ -96,7 +96,7 @@ layout: default
     </p>
     <a href="mailto:wenjieji@westlake.edu.cn" class="email-line">wenjieji@westlake.edu.cn</a>
     <p class="member-bio">
-      Wenjie Ji is an Associate Professor at Westlake University. Her research interests 
+      Wenjie Ji is an Associate Professor in the Department of Physics at Westlake University. Her research interests 
       include theoretical condensed matter physics, and 
       quantum information science.
     </p>
