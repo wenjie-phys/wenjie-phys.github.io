@@ -5,52 +5,58 @@ layout: default
 {% include header.html %}
 
 <style>
+  /* Container forces everything to the LEFT */
   .profile-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; 
     margin-top: 40px;
-    font-family: 'EB Garamond', Garamond, serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 100%;
   }
 
   .profile-photo {
-    width: 180px; /* Adjust size of your photo here */
-    height: 180px;
-    border-radius: 50%; /* Makes the photo a circle */
-    object-fit: cover;
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 0; /* Ensures rectangle shape */
     margin-bottom: 20px;
-    border: 1px solid #eee;
+    display: block;
   }
 
   .profile-name {
     font-size: 24px;
     font-weight: 700;
     margin: 0;
-    color: #222;
+    color: #111;
   }
 
   .profile-title {
-    font-size: 20px;
+    font-size: 18px;
     color: #555;
-    margin: 5px 0;
+    margin: 4px 0;
   }
 
   .profile-email {
-    font-size: 18px;
+    font-size: 16px;
     color: #3b71ca;
     text-decoration: none;
+    margin-bottom: 40px; /* Space before the next person */
+  }
+
+  .group-header {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #111;
   }
 </style>
 
 <div class="profile-container">
+  <h2 class="group-header">Group Members</h2>
+
   <img src="assets/me.jpg" alt="Wenjie Ji" class="profile-photo">
-
   <p class="profile-name">Wenjie Ji</p>
-  <p class="profile-title">Principle Investigator</p>
+  <p class="profile-title">Principal Investigator</p>
   <a href="mailto:wenjieji@westlake.edu.cn" class="profile-email">wenjieji@westlake.edu.cn</a>
-</div>
 
----
-
-### Group Members
-*List your students or researchers here in the future...*
+  </div>
