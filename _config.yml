@@ -1,6 +1,6 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+# Leave title and description empty here to disable the theme's default sidebar
+title: ""
+description: ""
+show_downloads: false
 github: [metadata]
-title: Wenjie Ji
-description: Associate Professor, Westlake University
-            <br>
-            <a href="https://scholar.google.com/citations?user=bVjt0QwAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i> Google Scholar</a>
