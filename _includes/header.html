@@ -1,38 +1,55 @@
 <style>
-  /* 1. Base Styles */
+  /* 1. GLOBAL THEME RESET - Keeps headline in the same spot on ALL pages */
+  header {
+    width: 100% !important;
+    float: none !important;
+    position: relative !important;
+    margin: 0 0 20px 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  section {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .wrapper {
+    max-width: 1000px !important; /* Adjust this to control how wide your site is */
+    margin: 0 auto !important;    /* Centers the entire 'box' */
+    padding: 40px !important;     /* Consistent margin from the edge */
+  }
+
+  /* 2. DYNAMICAL HOVER EFFECT */
   .header-link {
     text-decoration: none !important;
     transition: font-weight 0.2s ease-in-out;
     display: inline-flex;
     flex-direction: column;
-    /* Aligns the visible text and the 'ghost' text to the start (left) */
     align-items: flex-start; 
     font-family: 'EB Garamond', Garamond, serif;
   }
 
-  /* 2. The "Ghost" Trick: Reserves space for the bold version */
   .header-link::after {
     display: block;
     content: attr(title);
-    font-weight: 800; /* Uses the boldest weight to set the width */
+    font-weight: 800;
     height: 0;
     overflow: hidden;
     visibility: hidden;
   }
 
-  /* 3. The Dynamical Effect (Bold to Normal) */
   .header-link:hover {
     font-weight: 400 !important;
   }
 
-  /* 4. Name Styling */
   .site-title {
     font-size: 38px;
     font-weight: 800 !important;
     color: #111 !important;
   }
 
-  /* 5. Navigation Styling */
   nav a {
     font-weight: 700 !important;
     font-size: 19px;
@@ -40,9 +57,8 @@
   }
 </style>
 
-<div style="display: flex; flex-direction: column; width: 100%; margin-bottom: 40px;">
+<div style="display: flex; flex-direction: column; width: 100%; margin-bottom: 20px;">
     <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-        
         <h1 style="margin: 0; line-height: 1;">
             <a href="/" class="header-link site-title" title="Wenjie Ji">Wenjie Ji</a>
         </h1>
@@ -56,19 +72,13 @@
     </div>
 
     {% if page.url == "/" or page.url == "/index.html" %}
-    <div style="margin-top: 50px;"> 
-        <p style="margin: 0; color: #111; font-weight: 600; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Associate Professor, Westlake University</p>
+    <div style="margin-top: 30px;"> 
+        <p style="margin: 0; color: #111; font-size: 18px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: bold;">
+            Associate Professor, Westlake University
+        </p>
         <div style="margin-top: 5px;">
-            <a href="https://scholar.google.com/citations?user=bVjt0QwAAAAJ&hl=en" style="color: #3b71ca; text-decoration: none; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 15px;">Google Scholar</a>
+            <a href="YOUR_SCHOLAR_URL" style="color: #3b71ca; font-size: 15px; text-decoration: none; font-family: 'Helvetica Neue', Arial, sans-serif;">Google Scholar</a>
         </div>
     </div>
     {% endif %}
-  
 </div>
-  
-
-
-
-
-
-
