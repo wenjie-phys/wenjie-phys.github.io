@@ -22,5 +22,5 @@ description: "Associate Professor, Westlake University"
 
 ### Links
 
-- Google Scholar: [scholar.google.com/citations?user=bVjt0QwAAAAJ](https://scholar.google.com/citations?user=bVjt0QwAAAAJ&hl=en)
-- Westlake University: [westlake.edu.cn](https://www.westlake.edu.cn/)
+- **Google Scholar:** [scholar.google.com/citations?user=bVjt0QwAAAAJ](https://scholar.google.com/citations?user=bVjt0QwAAAAJ&hl=en)
+- **Westlake University:** [westlake.edu.cn](https://www.westlake.edu.cn/)

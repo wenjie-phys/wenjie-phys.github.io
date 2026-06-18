@@ -80,7 +80,7 @@ body {
 .post-content a,
 .member-contact a {
   color: #2f5da8;
-  box-shadow: none;
+  box-shadow: 0 1px 0 #2f5da8;
 }
 
 .post-content a:hover,

@@ -57,11 +57,6 @@ params:
     enabled: false
     title: "Wenjie Ji"
     subtitle: "Associate Professor, Westlake University"
-    buttons:
-      - name: "Google Scholar"
-        url: "https://scholar.google.com/citations?user=bVjt0QwAAAAJ&hl=en"
-      - name: "Group"
-        url: "/group/"
 
 markup:
   goldmark:
