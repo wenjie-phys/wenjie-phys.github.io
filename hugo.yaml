@@ -18,7 +18,7 @@ menu:
   main:
     - identifier: "cv"
       name: "CV"
-      url: "/cv/"
+      url: "/files/wenjie_ji_curriculum_vitae.pdf"
       weight: 10
     - identifier: "publications"
       name: "Publications"
