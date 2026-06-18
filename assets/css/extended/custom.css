@@ -169,6 +169,7 @@ body {
 
 .home-intro-copy {
   max-width: 680px;
+  transform: translateY(0.34em);
 }
 
 .home-intro-copy p {
