@@ -87,9 +87,16 @@ body {
 .post-content a:focus,
 .member-contact a:hover,
 .member-contact a:focus,
+.scholar-profile-link:hover,
+.scholar-profile-link:focus {
+  font-weight: 700;
+}
+
+.logo a:hover,
+.logo a:focus,
 #menu a:hover,
 #menu a:focus {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .post-content a:hover strong,
@@ -183,8 +190,8 @@ body {
   fill: currentColor;
 }
 
-.scholar-profile-link:hover {
-  font-weight: 700;
+.scholar-profile-link:hover,
+.scholar-profile-link:focus {
   text-decoration: none;
 }
 
