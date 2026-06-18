@@ -145,7 +145,7 @@ body {
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
   gap: 34px;
-  align-items: start;
+  align-items: end;
   margin-top: 8px;
 }
 
@@ -173,7 +173,7 @@ body {
 
 .home-intro-copy p {
   margin-top: 0;
-  margin-bottom: 18px;
+  margin-bottom: 0;
   color: var(--content);
   font-size: 18px;
   line-height: 1.68;
