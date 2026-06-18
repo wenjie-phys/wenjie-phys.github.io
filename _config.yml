@@ -1,6 +1,0 @@
-remote_theme: pages-themes/minimal@v0.2.0
-# Leave title and description empty here to disable the theme's default sidebar
-title: ""
-description: ""
-show_downloads: false
-github: [metadata]
