@@ -84,8 +84,13 @@ body {
 }
 
 .post-content a:hover,
-.member-contact a:hover {
-  color: #1e3f78;
+.post-content a:focus,
+.member-contact a:hover,
+.member-contact a:focus,
+#menu a:hover,
+#menu a:focus {
+  color: #006699;
+  font-weight: 700;
 }
 
 .post-title {
@@ -173,8 +178,9 @@ body {
 }
 
 .scholar-profile-link:hover {
-  color: #494e52 !important;
-  text-decoration: underline;
+  color: #006699 !important;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .member-list {
