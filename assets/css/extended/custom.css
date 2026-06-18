@@ -97,8 +97,8 @@ body {
 .post-content a:focus,
 .member-contact a:hover,
 .member-contact a:focus,
-.scholar-profile-link:hover,
-.scholar-profile-link:focus {
+.home-profile-link:hover,
+.home-profile-link:focus {
   font-weight: 700;
 }
 
@@ -179,11 +179,15 @@ body {
   line-height: 1.68;
 }
 
-.scholar-profile-link {
+.home-contact-links {
+  display: grid;
+  gap: 5px;
+}
+
+.home-profile-link {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  margin-bottom: 5px;
   padding: 2px 5px 2px 0;
   color: #494e52 !important;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
@@ -193,15 +197,15 @@ body {
   text-decoration: none;
 }
 
-.scholar-profile-icon {
+.home-profile-icon {
   width: 1.25em;
   height: 1em;
   flex: 0 0 auto;
   fill: currentColor;
 }
 
-.scholar-profile-link:hover,
-.scholar-profile-link:focus {
+.home-profile-link:hover,
+.home-profile-link:focus {
   text-decoration: none;
 }
 
