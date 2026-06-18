@@ -80,7 +80,7 @@ body {
 .post-content a,
 .member-contact a {
   color: #2f5da8;
-  box-shadow: 0 1px 0 #2f5da8;
+  box-shadow: none;
 }
 
 .post-content a:hover,
@@ -149,6 +149,26 @@ body {
   color: var(--content);
   font-size: 18px;
   line-height: 1.68;
+}
+
+.scholar-profile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--secondary) !important;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.scholar-profile-link svg {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 auto;
+}
+
+.scholar-profile-link:hover {
+  color: var(--primary) !important;
 }
 
 .member-list {
