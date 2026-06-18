@@ -1,0 +1,69 @@
+baseURL: "https://wenjie-phys.github.io/"
+languageCode: "en-us"
+title: "Wenjie Ji"
+theme:
+  - "PaperMod"
+
+enableRobotsTXT: true
+enableEmoji: true
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - identifier: "cv"
+      name: "CV"
+      url: "/cv/"
+      weight: 10
+    - identifier: "publications"
+      name: "Publications"
+      url: "/publications/"
+      weight: 20
+    - identifier: "research"
+      name: "Research"
+      url: "/research/"
+      weight: 30
+    - identifier: "group"
+      name: "Group"
+      url: "/group/"
+      weight: 40
+    - identifier: "join"
+      name: "Join"
+      url: "/join/"
+      weight: 50
+
+params:
+  env: "production"
+  author: "Wenjie Ji"
+  description: "Associate Professor, Westlake University"
+  defaultTheme: "auto"
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  disableSpecial1stPost: true
+  hideFooter: true
+  mainSections: []
+
+  profileMode:
+    enabled: false
+    title: "Wenjie Ji"
+    subtitle: "Associate Professor, Westlake University"
+    buttons:
+      - name: "Google Scholar"
+        url: "https://scholar.google.com/citations?user=bVjt0QwAAAAJ&hl=en"
+      - name: "Group"
+        url: "/group/"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
