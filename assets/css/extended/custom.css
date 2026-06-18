@@ -36,6 +36,16 @@ body {
 #menu a {
   font-size: 16px;
   font-weight: 700;
+  text-align: left;
+}
+
+#menu a::after {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  font-weight: 700;
+  content: attr(title);
 }
 
 .profile {
