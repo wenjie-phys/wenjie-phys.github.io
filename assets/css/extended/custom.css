@@ -189,6 +189,18 @@ body {
   line-height: 1.68;
 }
 
+.home-intro-copy a {
+  color: #2f5da8;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.home-intro-copy a:hover,
+.home-intro-copy a:focus {
+  color: #2f5da8;
+  font-weight: 700;
+}
+
 .home-contact-links {
   display: grid;
   gap: 5px;
