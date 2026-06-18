@@ -3,6 +3,13 @@ title: "Wenjie Ji"
 description: "Associate Professor, Westlake University"
 ---
 
+<section class="home-title-picture" aria-label="Wenjie Ji">
+  <div class="home-title-picture-text">
+    <h1>Wenjie Ji</h1>
+    <p>Associate Professor, Westlake University</p>
+  </div>
+</section>
+
 <section class="home-intro-block">
   <figure class="home-portrait">
     <div class="home-portrait-placeholder" aria-label="Portrait placeholder">WJ</div>
