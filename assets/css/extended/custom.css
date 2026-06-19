@@ -1,5 +1,5 @@
 :root {
-  --main-width: 980px;
+  --main-width: 720px;
   --nav-width: 980px;
   --content-gap: 52px;
   --radius: 8px;
@@ -110,7 +110,11 @@ body {
 }
 
 .post-single .post-content {
-  margin-top: 36px;
+  margin-top: 92px;
+}
+
+.post-single .post-content > :first-child {
+  margin-top: 0;
 }
 
 .post-content a,
@@ -185,6 +189,10 @@ body {
   gap: 34px;
   align-items: end;
   margin-top: 8px;
+}
+
+.home .post-single .post-content {
+  margin-top: 0;
 }
 
 .home-portrait {
