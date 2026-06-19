@@ -255,11 +255,12 @@ body {
   gap: 4px;
   padding: 2px 5px 2px 0;
   color: #494e52 !important;
+  box-shadow: none !important;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .home-profile-icon {
@@ -271,7 +272,8 @@ body {
 
 .home-profile-link:hover,
 .home-profile-link:focus {
-  text-decoration: none;
+  box-shadow: none !important;
+  text-decoration: none !important;
 }
 
 .member-list {
