@@ -109,6 +109,10 @@ body {
   padding-top: 0;
 }
 
+.post-single .post-content {
+  margin-top: 36px;
+}
+
 .post-content a,
 .member-contact a {
   color: #2f5da8;
