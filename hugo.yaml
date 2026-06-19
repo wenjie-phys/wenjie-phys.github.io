@@ -49,6 +49,7 @@ params:
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: false
+  disableAnchoredHeadings: true
   disableSpecial1stPost: true
   hideFooter: true
   mainSections: []
