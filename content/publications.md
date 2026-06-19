@@ -7,7 +7,7 @@ description: "Publications by Wenjie Ji."
 
 1. **WJ**, Ryan A. Lanzetta, Zheng Zhou, Chong Wang, "Self-dual Higgs transitions: Toric code and beyond", [arXiv:2601.20945](https://arxiv.org/abs/2601.20945).
 
-2. Wilbur Shirley, Carolyn Zhang, **WJ**, Michael Levin, "Anomaly-free symmetries with obstructions to gauging and onsiteability", Physical Review Letters 136, 216602 (2026), [arXiv:2507.21267](https://arxiv.org/abs/2507.21267).
+2. Wilbur Shirley, Carolyn Zhang, **WJ**, Michael Levin, "Anomaly-free symmetries with obstructions to gauging and onsiteability", [Physical Review Letters 136, 216602 (2026)](https://journals.aps.org/prl/abstract/10.1103/zrs1-j2xd), [arXiv:2507.21267](https://arxiv.org/abs/2507.21267).
 
 3. **WJ**, Xiao-Gang Wen, "Categorical symmetry and noninvertible anomaly in symmetry-breaking and topological phase transitions", [Physical Review Research 2, 033417 (2020)](https://doi.org/10.1103/PhysRevResearch.2.033417), [arXiv:1912.13492](https://arxiv.org/abs/1912.13492).
 
