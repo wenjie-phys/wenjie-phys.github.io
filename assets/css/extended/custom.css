@@ -34,9 +34,7 @@ body {
 }
 
 body:has(.home-intro-block) {
-  background:
-    linear-gradient(rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.68)),
-    url("/images/title-picture-color-hires.jpg") center center / cover fixed no-repeat;
+  background: url("/images/title-picture-color-hires.jpg") center center / cover fixed no-repeat;
 }
 
 .logo a,
@@ -205,26 +203,21 @@ body:has(.home-intro-block) {
   margin-top: 0;
 }
 
+body:has(.home-intro-block) .top-link,
 body:has(.home-intro-block) .header,
-body:has(.home-intro-block) .main {
+body:has(.home-intro-block) .main,
+body:has(.home-intro-block) .page-header,
+body:has(.home-intro-block) .post-single,
+body:has(.home-intro-block) .post-content {
   background: transparent;
 }
 
-body:has(.home-intro-block) .home-intro-block,
-body:has(.home-intro-block) .home-contact-links {
-  background: rgba(255, 255, 255, 0.72);
-  backdrop-filter: blur(2px);
-}
-
 body:has(.home-intro-block) .home-intro-block {
-  padding: 24px;
-  margin-left: -24px;
-  margin-right: -24px;
+  padding: 0;
 }
 
 body:has(.home-intro-block) .home-contact-links {
   display: inline-grid;
-  padding: 12px 16px 12px 0;
 }
 
 .home-portrait {
