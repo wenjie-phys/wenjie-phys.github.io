@@ -192,19 +192,19 @@ body {
   line-height: 1.68;
 }
 
-.home-intro-copy a {
+.md-content .home-intro-copy a:not(.anchor) {
   color: var(--content);
-  box-shadow: none;
+  box-shadow: none !important;
   font-weight: 700;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-.home-intro-copy a:hover,
-.home-intro-copy a:focus {
+.md-content .home-intro-copy a:not(.anchor):hover,
+.md-content .home-intro-copy a:not(.anchor):focus {
   color: var(--content);
-  box-shadow: none;
+  box-shadow: none !important;
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .home-contact-links {
