@@ -214,7 +214,7 @@ body:has(.home-intro-block) {
 
 .home .post-single .post-content::before {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   inset: clamp(78px, calc((100vh - 450px) / 2 - 42px), 478px) -74px -54px;
   content: "";
   background:
@@ -224,6 +224,11 @@ body:has(.home-intro-block) {
       rgba(255, 255, 255, 0.30) 73%,
       rgba(255, 255, 255, 0) 100%);
   pointer-events: none;
+}
+
+.home .post-single .post-content > * {
+  position: relative;
+  z-index: 1;
 }
 
 body:has(.home-intro-block) .top-link,
