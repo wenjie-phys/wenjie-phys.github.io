@@ -273,42 +273,35 @@ body {
 
 .member-list {
   display: grid;
-  gap: 28px;
-  margin-top: 22px;
+  gap: 30px;
+  margin-top: 18px;
 }
 
 .member-card {
   display: grid;
-  grid-template-columns: 96px minmax(0, 1fr);
-  gap: 24px;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 28px;
   align-items: start;
 }
 
 .member-avatar {
   display: grid;
   place-items: center;
-  width: 96px;
-  height: 96px;
+  width: 150px;
+  height: 150px;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 0;
   background: #f8fafc;
   color: #111111;
   font-family: "EB Garamond", Garamond, Georgia, serif;
-  font-size: 30px;
+  font-size: 42px;
   font-weight: 800;
 }
 
-.member-body h3 {
+.member-body p {
   margin: 0;
-  color: #111111;
-  font-size: 21px;
-  line-height: 1.35;
-}
-
-.member-body h3 span {
-  color: #4b5563;
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
 }
 
 .member-contact {
