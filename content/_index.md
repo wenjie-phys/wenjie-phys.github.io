@@ -11,7 +11,7 @@ description: "Associate Professor, Westlake University"
   </figure>
 
   <div class="home-intro-copy">
-    <p>I am an Associate Professor in the Department of Physics at <a href="https://www.westlake.edu.cn/" target="_blank" rel="noopener noreferrer">Westlake University</a>. My research interests include theoretical condensed matter physics and quantum information science. Feel free to email me if you are interested in working with me.</p>
+    <p>I am an Associate Professor in the Department of Physics at <a href="https://en.westlake.edu.cn/" target="_blank" rel="noopener noreferrer">Westlake University</a>.<br>My research interests include theoretical condensed matter physics and quantum information science. Feel free to email me if you are interested in working with me.</p>
   </div>
 </section>
 

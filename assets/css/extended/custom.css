@@ -32,8 +32,8 @@ body {
 .header-nav {
   align-items: center;
   line-height: 1.15;
-  padding-top: 10px;
-  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 0;
 }
 
 #menu a {
@@ -147,7 +147,7 @@ body {
 .home-title-picture {
   width: 100vw;
   height: 50vh;
-  margin: 0 calc(50% - 50vw) 48px;
+  margin: -64px calc(50% - 50vw) 48px;
   background-image: url("/images/title-picture.jpg");
   background-position: center center;
   background-size: cover;
@@ -193,15 +193,16 @@ body {
 }
 
 .home-intro-copy a {
-  color: #2f5da8;
-  font-weight: 400;
+  color: var(--content);
+  font-weight: 700;
   text-decoration: none;
 }
 
 .home-intro-copy a:hover,
 .home-intro-copy a:focus {
-  color: #2f5da8;
+  color: var(--content);
   font-weight: 700;
+  text-decoration: none;
 }
 
 .home-contact-links {
