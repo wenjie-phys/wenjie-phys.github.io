@@ -52,6 +52,13 @@ body:has(.home-intro-block) {
   display: none !important;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--theme);
+}
+
 .header-nav {
   align-items: center;
   line-height: 1.15;
@@ -192,11 +199,27 @@ body:has(.home-intro-block) {
 }
 
 .home-intro-block {
+  position: relative;
+  isolation: isolate;
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
   gap: 34px;
   align-items: center;
   margin-top: clamp(120px, calc((100vh - 450px) / 2), 520px);
+}
+
+.home-intro-block::before {
+  position: absolute;
+  z-index: -1;
+  inset: -46px -64px;
+  content: "";
+  background:
+    radial-gradient(ellipse at center,
+      rgba(255, 255, 255, 0.78) 0%,
+      rgba(255, 255, 255, 0.64) 42%,
+      rgba(255, 255, 255, 0.30) 70%,
+      rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
 }
 
 .home .post-single .post-content {
