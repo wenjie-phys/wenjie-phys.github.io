@@ -3,8 +3,7 @@ title: "Wenjie Ji"
 description: "Associate Professor, Westlake University"
 ---
 
-<!-- Restore this when a new title picture is ready. The saved size/position lives in .home-title-picture in assets/css/extended/custom.css. -->
-<!-- <section class="home-title-picture" aria-label="Title picture"></section> -->
+<section class="home-title-picture" aria-label="Title picture"></section>
 
 <section class="home-intro-block">
   <figure class="home-portrait">

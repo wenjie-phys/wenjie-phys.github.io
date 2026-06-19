@@ -182,7 +182,7 @@ body {
   width: 100vw;
   height: 33.333vh;
   margin: -22px calc(50% - 50vw) 48px;
-  background-image: url("/images/title-picture.jpg");
+  background-image: url("/images/title-picture-color-hires.jpg");
   background-position: center center;
   background-size: cover;
 }
