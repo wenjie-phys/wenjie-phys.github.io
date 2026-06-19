@@ -41,8 +41,8 @@ params:
   env: "production"
   author: "Wenjie Ji"
   description: "Associate Professor, Westlake University"
-  defaultTheme: "auto"
-  disableThemeToggle: false
+  defaultTheme: "light"
+  disableThemeToggle: true
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: false
