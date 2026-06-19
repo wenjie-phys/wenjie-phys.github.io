@@ -194,6 +194,7 @@ body {
 
 .home-intro-copy a {
   color: var(--content);
+  box-shadow: none;
   font-weight: 700;
   text-decoration: none;
 }
@@ -201,7 +202,8 @@ body {
 .home-intro-copy a:hover,
 .home-intro-copy a:focus {
   color: var(--content);
-  font-weight: 700;
+  box-shadow: none;
+  font-weight: 400;
   text-decoration: none;
 }
 
