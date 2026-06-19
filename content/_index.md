@@ -3,8 +3,6 @@ title: "Wenjie Ji"
 description: "Associate Professor, Westlake University"
 ---
 
-<section class="home-title-picture" aria-label="Title picture"></section>
-
 <section class="home-intro-block">
   <figure class="home-portrait">
     <div class="home-portrait-placeholder" aria-label="Portrait placeholder">WJ</div>
