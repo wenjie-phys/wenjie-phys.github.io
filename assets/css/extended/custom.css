@@ -192,11 +192,7 @@ body {
   grid-template-columns: 220px minmax(0, 1fr);
   gap: 34px;
   align-items: center;
-  position: relative;
-  left: 50%;
-  width: min(934px, calc(100vw - 48px));
   margin-top: clamp(120px, calc((100vh - 450px) / 2), 520px);
-  transform: translateX(-50%);
 }
 
 .home .post-single .post-content {
@@ -336,10 +332,7 @@ body {
   .home-intro-block {
     grid-template-columns: 1fr;
     gap: 22px;
-    left: auto;
-    width: auto;
     margin-top: 80px;
-    transform: none;
   }
 
   .home-portrait-placeholder {
