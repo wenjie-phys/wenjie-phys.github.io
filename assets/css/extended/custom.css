@@ -32,8 +32,8 @@ body {
 .header-nav {
   align-items: center;
   line-height: 1.15;
-  padding-top: 6px;
-  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-bottom: 2px;
 }
 
 #menu a {
@@ -146,7 +146,7 @@ body {
 
 .home-title-picture {
   width: 100vw;
-  height: 50vh;
+  height: 33.333vh;
   margin: 0 calc(50% - 50vw) 48px;
   background-image: url("/images/title-picture.jpg");
   background-position: center center;
