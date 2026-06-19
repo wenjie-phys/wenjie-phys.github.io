@@ -31,9 +31,29 @@ body {
 
 .header-nav {
   align-items: center;
-  line-height: 1.15;
-  padding-top: 4px;
-  padding-bottom: 2px;
+  line-height: 1;
+  min-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.logo,
+.menu,
+.logo-switches,
+.logo-switches > * {
+  align-items: center;
+  line-height: 1;
+  min-height: 0;
+}
+
+.logo a,
+#menu a {
+  line-height: 1;
+}
+
+.theme-toggle {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #menu a {
