@@ -1,0 +1,28 @@
+<button class="home-bg-toggle" type="button" aria-pressed="false" aria-label="Toggle homepage background picture" title="Toggle background picture">
+  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+    <circle cx="8.5" cy="10" r="1.5"></circle>
+    <path d="m21 15-5-5L5 19"></path>
+  </svg>
+</button>
+
+<script>
+  (() => {
+    const button = document.querySelector(".home-bg-toggle");
+    if (!button || !document.querySelector(".home-intro-block")) return;
+
+    const key = "wenjie-home-background";
+    const apply = (enabled) => {
+      document.body.classList.toggle("home-bg-on", enabled);
+      button.setAttribute("aria-pressed", String(enabled));
+      button.title = enabled ? "Turn off background picture" : "Turn on background picture";
+    };
+
+    apply(localStorage.getItem(key) === "on");
+    button.addEventListener("click", () => {
+      const enabled = !document.body.classList.contains("home-bg-on");
+      localStorage.setItem(key, enabled ? "on" : "off");
+      apply(enabled);
+    });
+  })();
+</script>

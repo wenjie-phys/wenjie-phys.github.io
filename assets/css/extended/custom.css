@@ -45,6 +45,10 @@ body {
 }
 
 body:has(.home-intro-block) {
+  background: var(--theme);
+}
+
+body.home-bg-on:has(.home-intro-block) {
   background: url("/images/title-picture-futuristic-creamwhite-clear-hires.jpg") center center / cover fixed no-repeat;
 }
 
@@ -254,6 +258,48 @@ body:has(.home-intro-block) .home-intro-block {
 
 body:has(.home-intro-block) .home-contact-links {
   display: inline-grid;
+}
+
+body.home-bg-on:has(.home-intro-block) .footer {
+  background: transparent;
+}
+
+.home-bg-toggle {
+  display: none;
+}
+
+body:has(.home-intro-block) .home-bg-toggle {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 120;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  color: var(--secondary);
+  background: rgba(251, 250, 244, 0.78);
+  border: 1px solid rgba(75, 85, 99, 0.20);
+  border-radius: 50%;
+  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.10);
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+}
+
+body:has(.home-intro-block) .home-bg-toggle:hover,
+body:has(.home-intro-block) .home-bg-toggle:focus {
+  color: var(--primary);
+  outline: none;
+}
+
+body.home-bg-on:has(.home-intro-block) .home-bg-toggle {
+  background: rgba(251, 250, 244, 0.92);
+}
+
+.home-bg-toggle svg {
+  width: 21px;
+  height: 21px;
 }
 
 .home-portrait {
