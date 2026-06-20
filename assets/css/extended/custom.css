@@ -298,8 +298,8 @@ body.home-bg-on:has(.home-intro-block) .home-bg-toggle {
 }
 
 .home-bg-toggle svg {
-  width: 24px;
-  height: 19px;
+  width: 23px;
+  height: 23px;
   fill: currentColor;
 }
 
