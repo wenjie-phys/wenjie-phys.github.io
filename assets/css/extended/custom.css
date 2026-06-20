@@ -276,30 +276,31 @@ body:has(.home-intro-block) .home-bg-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
-  color: var(--secondary);
-  background: rgba(251, 250, 244, 0.78);
-  border: 1px solid rgba(75, 85, 99, 0.20);
-  border-radius: 50%;
-  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.10);
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  color: #494e52;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
   cursor: pointer;
-  backdrop-filter: blur(6px);
 }
 
 body:has(.home-intro-block) .home-bg-toggle:hover,
 body:has(.home-intro-block) .home-bg-toggle:focus {
-  color: var(--primary);
+  color: #494e52;
+  transform: scale(1.06);
   outline: none;
 }
 
 body.home-bg-on:has(.home-intro-block) .home-bg-toggle {
-  background: rgba(251, 250, 244, 0.92);
+  color: #494e52;
 }
 
 .home-bg-toggle svg {
-  width: 21px;
-  height: 21px;
+  width: 24px;
+  height: 19px;
+  fill: currentColor;
 }
 
 .home-portrait {
