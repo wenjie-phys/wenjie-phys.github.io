@@ -5,6 +5,7 @@
   --radius: 8px;
   --theme: #fbfaf4;
   --entry: #fbfaf4;
+  --code-bg: #fbfaf4;
   --primary: #111111;
   --secondary: #4b5563;
   --tertiary: #6b7280;
@@ -15,6 +16,7 @@
 :root[data-theme="dark"] {
   --theme: #fbfaf4;
   --entry: #fbfaf4;
+  --code-bg: #fbfaf4;
   --primary: #111111;
   --secondary: #4b5563;
   --tertiary: #6b7280;
@@ -27,6 +29,15 @@
   background: #fbfaf4;
 }
 
+html,
+body,
+.list,
+.main,
+.post-single,
+.post-content {
+  background-color: #fbfaf4;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -34,7 +45,7 @@ body {
 }
 
 body:has(.home-intro-block) {
-  background: url("/images/title-picture-futuristic-creamwhite-hires.jpg") center center / cover fixed no-repeat;
+  background: url("/images/title-picture-futuristic-creamwhite-clear-hires.jpg") center center / cover fixed no-repeat;
 }
 
 .logo a,
@@ -207,28 +218,7 @@ body:has(.home-intro-block) {
 }
 
 .home .post-single .post-content {
-  position: relative;
-  isolation: isolate;
   margin-top: 0;
-}
-
-.home .post-single .post-content::before {
-  position: absolute;
-  z-index: 0;
-  inset: clamp(78px, calc((100vh - 450px) / 2 - 42px), 478px) -74px -54px;
-  content: "";
-  background:
-    radial-gradient(ellipse at center,
-      rgba(255, 255, 255, 0.80) 0%,
-      rgba(255, 255, 255, 0.66) 45%,
-      rgba(255, 255, 255, 0.30) 73%,
-      rgba(255, 255, 255, 0) 100%);
-  pointer-events: none;
-}
-
-.home .post-single .post-content > * {
-  position: relative;
-  z-index: 1;
 }
 
 body:has(.home-intro-block) .top-link,
