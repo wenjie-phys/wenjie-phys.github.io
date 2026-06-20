@@ -70,6 +70,24 @@ body:has(.home-intro-block) {
   background: var(--theme);
 }
 
+.footer {
+  background: var(--theme);
+  color: var(--secondary);
+  font-size: 12px;
+}
+
+.footer a {
+  color: inherit;
+  box-shadow: none;
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: var(--primary);
+}
+
 .header-nav {
   align-items: center;
   line-height: 1.15;

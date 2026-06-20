@@ -51,7 +51,7 @@ params:
   ShowRssButtonInSectionTermList: false
   disableAnchoredHeadings: true
   disableSpecial1stPost: true
-  hideFooter: true
+  hideFooter: false
   mainSections: []
 
   profileMode:
