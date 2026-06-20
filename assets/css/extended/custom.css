@@ -3,8 +3,8 @@
   --nav-width: 980px;
   --content-gap: 52px;
   --radius: 8px;
-  --theme: #ffffff;
-  --entry: #ffffff;
+  --theme: #fbfaf4;
+  --entry: #fbfaf4;
   --primary: #111111;
   --secondary: #4b5563;
   --tertiary: #6b7280;
@@ -13,8 +13,8 @@
 }
 
 :root[data-theme="dark"] {
-  --theme: #ffffff;
-  --entry: #ffffff;
+  --theme: #fbfaf4;
+  --entry: #fbfaf4;
   --primary: #111111;
   --secondary: #4b5563;
   --tertiary: #6b7280;
@@ -24,7 +24,7 @@
 }
 
 [data-theme="dark"] .list {
-  background: #ffffff;
+  background: #fbfaf4;
 }
 
 body {
@@ -34,7 +34,7 @@ body {
 }
 
 body:has(.home-intro-block) {
-  background: url("/images/title-picture-futuristic-lightbg-hires.jpg") center center / cover fixed no-repeat;
+  background: url("/images/title-picture-futuristic-creamwhite-hires.jpg") center center / cover fixed no-repeat;
 }
 
 .logo a,
