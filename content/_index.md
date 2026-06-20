@@ -13,8 +13,6 @@ description: "Associate Professor, Westlake University"
   </div>
 </section>
 
----
-
 <div class="home-contact-links">
 <a class="home-profile-link" href="https://scholar.google.com/citations?user=bVjt0QwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
   <svg class="home-profile-icon" aria-hidden="true" viewBox="0 0 640 512">
