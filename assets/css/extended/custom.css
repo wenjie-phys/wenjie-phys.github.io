@@ -34,7 +34,7 @@ body {
 }
 
 body:has(.home-intro-block) {
-  background: url("/images/title-picture-black-to-color-hires.jpg") center center / cover fixed no-repeat;
+  background: url("/images/title-picture-futuristic-lightbg-hires.jpg") center center / cover fixed no-repeat;
 }
 
 .logo a,
